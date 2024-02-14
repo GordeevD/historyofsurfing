@@ -1,0 +1,52 @@
+body {
+  background-image: url('https://media.npr.org/assets/img/2014/07/23/endless-4_wide-0d703a8e0ed820f0b8d9b88c45616f691a408673.jpg');
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff; /* Changed to white */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header {
+  text-align: center;
+  padding: 30px;
+}
+h1 {
+  font-family: "Playfair Display", serif; /* Second Google Font */
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 6px #fff; /* White shadow effect */
+}
+intro {
+  padding: 20px;
+}
+
+.intro p {
+  line-height: 1.5;
+}
+.profiles h2 {
+  text-align: center;
+}
+ .profiles-container {
+   display: flex;
+   /* Adjust flex-direction to 'column' for vertical display */
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.profile {
+  text-align: center;
+  margin: 10px;
+}
+
+.profile img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+h1, h2, h3, p {
+  text-shadow: 2px 2px 5px #fff; /* White shadow effect */
+}
